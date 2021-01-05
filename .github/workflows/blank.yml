@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: foo
-      uses: npaka06/github-test-action@v5
+      uses: npaka06/github-test-action@v6
       with:
         who-to-greet: 'Naveen PK'
     - run: echo Hello from pipeline test 
