@@ -9,6 +9,6 @@ jobs:
     - id: foo
       uses: npaka06/github-test-action@v5
       with:
-        who-to-greet: 'Naveen hi from pipeline test'
+        who-to-greet: 'Naveen PK'
     - run: echo Hello from pipeline test 
       shell: bash
